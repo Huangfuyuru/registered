@@ -1,13 +1,5 @@
 module.exports = function(grunt){
   grunt.initConfig({
-    cssmin:{
-      files:{
-        expand:true,
-        cwd:'src',
-        src:['*.css'],
-        dest:'dist/'
-      }
-    },
     htmlmin:{
       options:{
         removeComments:true,
@@ -20,6 +12,14 @@ module.exports = function(grunt){
         dest:'dist/'
       }
     },
+    cssmin:{
+      files:{
+        expand:true,
+        cwd:'src',
+        src:['*.css'],
+        dest:'dist/'
+      }
+    },
     uglify:{
       main:{
         files:[{
@@ -28,6 +28,7 @@ module.exports = function(grunt){
           src:['*.js'],
           dest:'dist/'
         }]
+      }
     },
     copy:{
       html:{
@@ -35,7 +36,7 @@ module.exports = function(grunt){
           expand:true,
           cwd:'dist',
           src:['*.html'],
-          dest:'src'
+          dest:'src/'
         }]
       },
       js:{
@@ -43,7 +44,7 @@ module.exports = function(grunt){
           expand:true,
           cwd:'dist',
           src:['*.js'],
-          dest:'src'
+          dest:'src/'
         }]
       },
       css:{
@@ -51,11 +52,12 @@ module.exports = function(grunt){
           expand:true,
           cwd:'dist',
           src:['*.css'],
-          dest:'src'
+          dest:'src/'
         }]
       }
     }
   });
+
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
