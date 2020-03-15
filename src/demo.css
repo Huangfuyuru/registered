@@ -1,1 +1,151 @@
-*{padding:0;margin:0}.mod-new-reg-bg{position:fixed;left:0;right:0;top:0;bottom:0;background:url(./img/reg_bg_min.jpg) no-repeat;background-size:cover}.mod-new-reg-logo{position:fixed;left:70px;top:60px;width:124.4px;height:40px}.mod-new-reg-logo img{width:100%;height:100%}.mod-new-reg-text{position:fixed;left:195px;top:314px;color:#fff}.mod-new-reg-text h3{font-size:54px;letter-spacing:0;font-weight:700}.mod-new-reg-text p{font-size:32px;letter-spacing:3.81px;font-weight:300}.mod-new-reg-content{position:fixed;right:139px;top:15%;width:480px;height:518px;background:rgba(255,255,255,.9);border-radius:12px}.new-reg-guide-login{margin:30px 0 0 39px}.new-reg-guide-login h3{font-size:36px;color:#000;padding-bottom:4px}.new-reg-guide-login p{font-size:14px;color:#9b9b9b}#login_btn{color:#2e58ff;cursor:pointer}#pp span{color:#2e58ff}#pp{font-size:12px;color:#666}.reg-content{padding-top:40px;width:720px;position:fixed}.reg-input{padding:11px 10px;background:#fff;border:1px solid #e0e0e0;border-radius:4px;font-size:14px;width:321px;color:#000}.reg-input:focus{border-color:#2e58ff}label{font-size:14px;color:#333;letter-spacing:0;text-align:right;width:82px;line-height:40px;margin-right:15px;font-weight:200;margin-left:30px}.reg-k{height:16px}#verification-code{width:184px}#verification-code-button{height:40px;width:126px;border-radius:4px;background:#fff;border:1px solid #e0e0e0;color:#333;font-size:12px;text-align:center;line-height:24px;letter-spacing:0}.reg-submit{padding-top:30px;margin-top:0;margin-bottom:15px}#submit-button{background:#bdcefc;border-radius:25px;width:399px;height:50px;font-size:16px;color:#fff;border:0;margin-left:28px}
+*{
+    padding:0;
+    margin:0;
+}
+.mod-new-reg-bg{
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background: url('./img/reg_bg_min.jpg') no-repeat;
+    background-size: cover;
+}
+.mod-new-reg-logo{
+    position: fixed;
+    left: 70px;
+    top:60px;
+    width:124.4px;
+    height: 40px;
+}
+.mod-new-reg-logo img{
+    width:100%;
+    height: 100%;
+}
+.mod-new-reg-text{
+    position: fixed;
+    left:195px;
+    top:314px;
+    color:#fff;
+}
+.mod-new-reg-text h3{
+    font-size: 54px;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+.mod-new-reg-text p{
+    font-size: 32px;
+    letter-spacing: 3.81px;
+    font-weight: 300;
+}
+.mod-new-reg-content{
+    position: fixed;
+    right:139px;
+    top:15%;
+    width:480px;
+    height: 518px;
+    background:rgba(255,255,255,0.9);
+    border-radius: 12px;
+}
+.new-reg-guide-login{
+    margin:30px 0 0 39px;
+
+}
+.new-reg-guide-login h3{
+    font-size: 36px;
+    color:#000;
+    padding-bottom: 4px;
+}
+.new-reg-guide-login p{
+    font-size: 14px;
+    color:#9B9B9B;
+}
+#login_btn{
+    color:#2e58ff;
+    cursor:pointer;
+}
+#pp span{
+    color:#2e58ff;
+}
+#pp{
+    font-size: 12px;
+    color:#666;
+}
+.reg-content{
+    padding-top:40px;
+    width:720px;
+    position:fixed;
+
+}
+.reg-input{
+    padding:11px 10px;
+    background:#fff;
+    border:1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width:321px;
+    color:#000;
+}
+.reg-input:focus{
+    border-color:#2E58FF;
+}
+.input-d{
+  border-color:red;
+}
+label{
+    font-size: 14px;
+    color:#333;
+    letter-spacing: 0;
+    text-align: right;
+    width:82px;
+    line-height: 40px;
+    margin-right: 15px;
+    font-weight: 200;
+    margin-left:30px;
+}
+.reg-k{
+    height: 16px;
+    color:red;
+    margin-left:94px;
+    font-size:12px;
+}
+#verification-code{
+    width: 184px;
+}
+#verification-code-button{
+    height:40px;
+    width:126px;
+    border-radius:4px;
+    background:#fff;
+    border:1px solid #E0E0E0;
+    color:#333;
+    font-size:12px;
+    text-align:center;
+    line-height:24px;
+    letter-spacing:0
+}
+.reg-submit{
+    padding-top: 30px;
+    margin-top:0;
+    margin-bottom:15px;
+}
+.noo{
+    background:#BDCEFC;
+    border-radius: 25px;
+    width:399px;
+    height: 50px;
+    font-size:16px;
+    color:#fff;
+    border:0;
+    margin-left: 28px;
+}
+.okk{
+    background:#3f89ec;
+    border-radius:25px;
+    width:399px;
+    height:50px;
+    font-size:16px;
+    color:#fff;
+    border:0;
+    margin-left:28px;
+}
